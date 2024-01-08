@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>custom_sku</id>
+    <name>Custom SKU</name>
+    <version>1.0</version>
+    <priority>4200</priority>
+    <position>0</position>
+    <description>Split sku in two parts: vendor and auto-generated/custom</description>
+    <status>active</status>
+    <developer>test</developer>
+    <default_language>ro</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <authors>
+        <author>
+            <name>Artiom Cvasniuc - test.ro</name>
+            <email>artiom.cvasniuc.test@gmail.com</email>
+            <url>https://test.ro</url>
+        </author>
+    </authors>
+</addon>

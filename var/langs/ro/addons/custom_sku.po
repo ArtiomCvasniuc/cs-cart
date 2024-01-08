@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO"
+
+msgctxt "Languages::custom_sku.parameter_not_found"
+msgid "Parameter <b>CODE</b> not found!"
+msgstr "Parametrul <b>COD</b> nu a fost găsit!"
+
+msgctxt "Languages::custom_sku.parameter_invalid"
+msgid "Invalid <b>CODE</b> format!"
+msgstr "Parametrul <b>COD</b> este invalid!"
+
+msgctxt "Languages::custom_sku.duplicate"
+msgid "Parameter <b>CODE</b> is not unique!"
+msgstr "Parametrul <b>COD</b> nu este unic!"

@@ -1,0 +1,19 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+
+msgctxt "Languages::vendor_plans.enable_recurrent"
+msgid "Enable recurrent commission"
+msgstr "Activați plata recurentă"
+
+msgctxt "Languages::vendor_plans.recurrent_commission"
+msgid "Recurrent commission value"
+msgstr "Valoare plată recurentă"
+
+msgctxt "Languages::vendor_plans.recurrent_step"
+msgid "Recurrent commission limit"
+msgstr "Limită plată recurentă"

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>recurrent_commission</id>
+    <name>Recurrent commission</name>
+    <version>1.0</version>
+    <priority>1001</priority>
+    <position>0</position>
+    <description>Enable recurrent commission, value and step</description>
+    <status>active</status>
+    <developer>test</developer>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+        <core_edition>MULTIVENDOR</core_edition>
+        <core_version>
+            <min>4.3.6</min>
+        </core_version>
+        <dependencies>vendor_plans</dependencies>
+        <conflicts>vendor_commission</conflicts>
+    </compatibility>
+    <authors>
+        <author>
+            <name>Artiom Cvasniuc - test.ro</name>
+            <email>artiom.cvasniuc.test@gmail.com</email>
+            <url>https://test.ro</url>
+        </author>
+    </authors>
+    <queries>
+        <item for="install">
+            ALTER TABLE ?:vendor_plans
+            ADD COLUMN enable_recurrent tinyint(1) default 0,
+            ADD COLUMN recurrent_commission decimal(12,2) default 15.00,
+            ADD COLUMN recurrent_step int(11) default 3;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE ?:vendor_plans
+            DROP COLUMN enable_recurrent,
+            DROP COLUMN recurrent_commission,
+            DROP COLUMN recurrent_step;
+        </item>
+    </queries>
+</addon>

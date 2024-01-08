@@ -1,0 +1,18 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_EN\n"
+
+msgctxt "Languages::vendor_plans.enable_recurrent"
+msgid "Enable recurrent commission"
+msgstr "Enable recurrent commission"
+
+msgctxt "Languages::vendor_plans.recurrent_commission"
+msgid "Recurrent commission value"
+msgstr "Recurrent commission value"
+
+msgctxt "Languages::vendor_plans.recurrent_step"
+msgid "Recurrent commission limit"
+msgstr "Recurrent commission limit"

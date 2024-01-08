@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>commercial_credit</id>
+    <name>Commercial credit</name>
+    <version>1.0</version>
+    <priority>5000</priority>
+    <position>120</position>
+    <status>active</status>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <description>Buyers can create an order only if their commercial credit is bellow the limit.</description>
+    <developer>test</developer>
+    <authors>
+        <author>
+            <name>Artiom Cvasniuc - test.ro</name>
+            <email>artiom.cvasniuc.test@gmail.com</email>
+            <url>https://test.ro</url>
+        </author>
+    </authors>
+    <queries>
+        <item for="install" type="file">database/install.sql</item>
+        <item for="uninstall" type="file">database/uninstall.sql</item>
+    </queries>
+</addon>
